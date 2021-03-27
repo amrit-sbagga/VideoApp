@@ -3,14 +3,15 @@
 android:layout_width="match_parent" android:layout_height="match_parent"
 android:orientation="vertical">
 
-<com.mp.aimsofttwo.videoapp.OverlayView
+<com.mp.aimsofttwo.videoapp.CameraPreview
     android:id="@+id/overlay"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-</com.mp.aimsofttwo.videoapp.OverlayView>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</com.mp.aimsofttwo.videoapp.CameraPreview>
 
 <SurfaceView android:id="@+id/surface"
-    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 </SurfaceView>
 
 </FrameLayout>
